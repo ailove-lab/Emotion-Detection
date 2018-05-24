@@ -1,6 +1,6 @@
-#include "/home/qburst/opencv3/dlib-18.18/dlib/image_processing/frontal_face_detector.h"
-#include "/home/qburst/opencv3/dlib-18.18/dlib/image_processing.h"
-#include "/home/qburst/opencv3/dlib-18.18/dlib/image_io.h"
+#include <dlib/image_processing/frontal_face_detector.h>
+#include <dlib/image_processing.h>
+#include <dlib/image_io.h>
 
 #include<iostream>
 #include<stdio.h>
@@ -8,14 +8,8 @@
 #include<fstream>
 #include<cmath>
 
-
 using namespace std;
 using namespace dlib;
-
-
-
-
-
 
 string shapeFileName = "./data/shape_predictor_68_face_landmarks.dat";
 shape_predictor sp;
